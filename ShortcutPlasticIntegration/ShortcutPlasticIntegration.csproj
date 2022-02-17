@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <RootNamespace>Shortcut_Plastic_Integration</RootNamespace>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="issuetrackerinterface, Version=5.4.16.0, Culture=neutral, PublicKeyToken=a107c9c6e34c8876">
+        <HintPath>..\..\..\..\..\..\Program Files\PlasticSCM5\client\issuetrackerinterface.dll</HintPath>
+      </Reference>
+      <Reference Include="log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a">
+        <HintPath>..\..\..\..\..\..\Program Files\PlasticSCM5\client\log4net.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>
